@@ -1,2 +1,1 @@
-undefined | undefined | undefined | undefined 
-35000 | Vendo | Honda | HB20 
+Vendo carro semi novo | 65000 | Carro pouco usado, apenas pra ir de casa ao trabalho do trabalho para casa | Honda | HB20 | 150000 | manual | airbag, alarm, ar-condicionado, reverse-cam

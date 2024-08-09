@@ -52,10 +52,10 @@
                             required>
                     </div>
                     <div class="box-input">
-                        <label for="purchase_age">Tipo de câmbio<span class="requiere-field">*</span></label>
-                        <input type="radio" id="manual" name="gear">
+                        <label for="gear">Tipo de câmbio<span class="requiere-field">*</span></label>
+                        <input type="radio" id="manual" name="gear" value="manual" required>
                         <label for="manual">Manual</label>
-                        <input type="radio" id="automatic" name="gear">
+                        <input type="radio" id="automatic" name="gear" value="automatic" required>
                         <label for="automatic">Automatico</label>
                     </div>
                     <div class="optional-box">
@@ -71,7 +71,7 @@
                             </li>
                             <li>
                                 <input type="checkbox" id="ar-condicionado" name="optional[]" value="ar-condicionado">
-                                <label for="ar-condicionad">Ar-Condicionado</label>
+                                <label for="ar-condicionado">Ar-Condicionado</label>
                             </li>
                             <li>
                                 <input type="checkbox" id="leather-seat" name="optional[]" value="leather-seat">
@@ -95,7 +95,7 @@
                             </li>
                             <li>
                                 <input type="checkbox" id="reverse-cam" name="optional[]" value="reverse-cam">
-                                <label for="reverse-ca">Camera de Ré</label>
+                                <label for="reverse-cam">Camera de Ré</label>
                             </li>
                         </ul>
                     </div>
@@ -105,7 +105,7 @@
                     </div>
                     <div class="box-input">
                         <label for="purchase_age">Ano do veiculo<span class="requiere-field">*</span></label>
-                        <input type="date" id="purchase_age" name="purchase_age" class="block" required>
+                        <input type="number" id="purchase_age" name="purchase_age" min="1900" max="2024" class="block" required>
                     </div>
                     <input class="btn" type="submit" value="Enviar">
                 </form>
